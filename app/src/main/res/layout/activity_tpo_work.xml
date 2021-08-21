@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".TPO.TpoWork">
+
+    <Button
+        android:layout_marginTop="@dimen/nav_header_vertical_spacing"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Pandey Ji"
+        android:id="@+id/tponame"
+        android:background="@drawable/allbuttons"
+        android:textColor="@android:color/holo_blue_bright"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycletpo"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

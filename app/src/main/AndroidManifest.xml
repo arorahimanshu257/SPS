@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.himanshu.sps">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ADMIN.SplashM"
+            android:theme="@style/splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ADMIN.Login"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:label="Admin"
+            android:roundIcon="@drawable/ic_person_black_24dp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TPO.AdminTpo" />
+        <activity android:name=".STUDENT.AdminStudent" />
+        <activity android:name=".TPO.TpoWork" />
+        <activity android:name=".ADMIN.FinalStudent" />
+        <activity android:name=".ADMIN.FinalTpo" />
+        <activity android:name=".TPO.AdminLogin" />
+        <activity android:name=".TPO.AddCompany" />
+        <activity android:name=".TPO.FinalCompany" />
+        <activity android:name=".STUDENT.StudentLogin" />
+        <activity android:name=".STUDENT.StudentWork" />
+        <activity android:name=".ADMIN.NewAdmin" />
+        <activity android:name=".ADMIN.ViewStudents" />
+        <activity android:name=".ADMIN.ViewTpo" />
+        <activity android:name=".TPO.ViewTpo" />
+        <activity
+            android:name=".ADMIN.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".STUDENT.StudentMain" />
+        <activity android:name=".STUDENT.ViewAdminInfo" />
+        <activity android:name=".STUDENT.TpoInfo" />
+        <activity android:name=".STUDENT.View_companies" />
+        <activity android:name=".STUDENT.Edit_Profile" />
+        <activity android:name=".AnnouncementClass"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#425e87"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Id"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Branch"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="cgpa"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sname"
+            android:layout_gravity="left"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Himanshu"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:id="@+id/sid"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="11607989"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:id="@+id/sbranch"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="CSE"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:id="@+id/cgpa"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="8.22"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
